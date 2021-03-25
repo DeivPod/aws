@@ -4,20 +4,21 @@ This document describes the requirements and usage of the script.
 
 
 ## Usage Guide
+<pre>
+python3 main.py --help
+python3 main.py --importfile ~/file.txt
+python3 main.py -i ~/file.txt
+</pre>
 
 ### Requirements
 
-* 
+* AWS CLI 2
+* boto3
+* Click
 
 #### Installation
 
-1. 
-    
-#### Execution Instructions
-
-* 
-* 
-
+1. pip3 install git+https://github.com/DeivPod/aws.git (doesn't work)
 
 #### Input
 
