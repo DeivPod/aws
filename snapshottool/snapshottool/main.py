@@ -1,6 +1,5 @@
 import click
 import itertools
-from backup import Backup_vm
 from snapshot import create_instance_snapshot
 
 importfile = ""
